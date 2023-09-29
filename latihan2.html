@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title>Homepage DATA ENTRY</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Halaman Data Entry</h1>
+    <form action="proses.php" method="POST">
+        <table>
+            <tr> <br>
+                <td><label for="nama">Nama :</label></td>
+                <td><input type="text" id="nama" name="nama" required></td>
+            </tr>
+            <tr>
+                <td><label for="nim">NIM :</label></td>
+                <td><input type="text" id="nim" name="nim" required></td>
+            </tr>
+            <tr>
+                <td><label for="kelas">Kelas :</label></td>
+                <td><input type="text" id="kelas" name="kelas" required></td>
+            </tr>
+            <tr>
+                <td><label for="jenis_kelamin">Jenis Kelamin :</label></td>
+                <td>
+                    <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+                    <label for="laki_laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama :</label></td>
+                <td>
+                    <select id="agama" name="agama" required>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tempat_lahir">Tempat/Tanggal Lahir :</label></td>
+                <td>
+                    <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat :</label></td>
+                <td><textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="riwayat_pendidikan">Riwayat Pendidikan :</label></td>
+            </tr>
+           <tr>
+                <td><label for="SD : "><li>SD : </li></li></label></td>
+                <td><textarea name="" id="" cols="18" rows="1"></textarea></td>
+           </tr>
+           <tr>
+            <td><label for="SMP : "><li>SMP : </li></li></label></td>
+            <td><textarea name="" id="" cols="18" rows="1"></textarea></td>
+       </tr>
+       <tr>
+        <td><label for="SMA : "><li>SMA : </li></li></label></td>
+        <td><textarea name="" id="" cols="18" rows="1"></textarea></td>
+        </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="homepage">Homepage :</label></td>
+                <td><input type="url" id="homepage" name="homepage" required></td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobby :</label></td>
+                <td><input type="text" id="hobby" name="hobby" required></td>
+            </tr>
+            <tr>
+                <td><label for="jenis_kelamin">Interest :</label></td>
+                <td>
+                    <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+                    <label for="laki_laki">Komputer</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label for="perempuan">Sport</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label for="perempuan">Traveling</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label for="perempuan">Writing</label>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+                    <label for="perempuan">Reading</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="RESET" value="SIMPAN"> <input type="RESET" value="RESET">
+        
+    </form>
+</body>
+</html>

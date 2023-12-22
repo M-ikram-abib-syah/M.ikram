@@ -1,0 +1,149 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    background: rgb(219, 207, 195)
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 19px;
+    align-items: justify;
+
+
+}
+
+
+header {
+    background-color: #f5d5a3;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Sesuaikan nilai sesuai kebutuhan Anda */
+
+
+
+
+
+
+
+#FIND-US-ON {
+    text-align: center;
+}
+
+#PROMO {
+    text-align: center;
+
+
+}
+
+#FIND-US-ON {
+    text-align: center;
+
+
+}
+
+#home {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.social-container {
+    display: inline-block;
+    margin: 0 20px;
+    /* Adjust the spacing between Facebook and Instagram as needed */
+}
+
+.social-container img {
+    display: block;
+    /* Ensures the image is on a new line */
+    margin-bottom: 5px;
+    /* Adjust the spacing between the image and text */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #e0b880;
+    padding: 0.5em;
+    text-align: left;
+    text-size-adjust: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    border-right: 4px solid #ccc;
+    padding: 10px 20px;
+}
+
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product,
+.Promo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Promo-item,
+.product-item {
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Promo-item:hover,
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+}
